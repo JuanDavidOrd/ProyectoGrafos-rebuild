@@ -1,0 +1,122 @@
+# ============================================
+#   PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*,cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================================
+#   EDITOR CONFIG FILES
+# ============================================
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ============================================
+#   OS FILES
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ============================================
+#   ENV CONFIG
+# ============================================
+
+# Environment variables
+*.env
+.env.*
+*.ini
+*.cfg
+
+# ============================================
+#   LOGS
+# ============================================
+
+*.log
+logs/
+
+# ============================================
+#   USER DATA / RUNTIME FILES
+# ============================================
+
+# Cache
+.cache/
+.mypy_cache/
+.pyre/
+.pylint.d/
+.mr.developer.cfg
+
+# ============================================
+#   PROJECT-SPECIFIC (NASA BURRO GRAFOS)
+# ============================================
+
+# Exported JSONs, reports, temp outputs
+data/*.tmp.json
+data/*.backup.json
+data/output/
+reports/
+
+# Ignore generated normalized JSONs
+data/normalized_*.json
