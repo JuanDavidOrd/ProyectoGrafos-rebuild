@@ -6,9 +6,10 @@ Requisitos
 
 Ejecutar la aplicación (Windows)
 
-1. Activar el entorno virtual:
+1. Crear y activar el entorno virtual con python 3.11:
 
 ```powershell
+py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 2. Instalar dependencias 
@@ -20,7 +21,7 @@ pip install -r requirements.txt
 3. Ejecutar la aplicación:
 
 ```powershell
-.\.venv\Scripts\python.exe run.py
+python run.py
 ```
 
 Notas rápidas
