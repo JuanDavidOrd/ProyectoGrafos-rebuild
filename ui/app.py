@@ -207,7 +207,7 @@ class MainWindow(QMainWindow):
             log,
             self.u,
             self.u.memberships,
-            output_dir="reports"
+            output_dir="reportes"
         )
 
         # Mostrar reporte en diálogo

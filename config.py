@@ -25,7 +25,7 @@ ANIMATION_CONFIG = {
 # ===== CONFIGURACIÓN DE REPORTES =====
 REPORT_CONFIG = {
     "export_enabled": True,                   # Exportar reportes a archivos
-    "export_directory": "reports",            # Directorio de exportación
+    "export_directory": "reportes",            # Directorio de exportación
     "export_formats": ["csv", "json"],        # Formatos de exportación
     "show_dialog": True,                      # Mostrar diálogo de reporte
     "show_summary_on_death": True,            # Mostrar resumen si el burro muere

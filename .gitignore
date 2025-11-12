@@ -116,7 +116,7 @@ logs/
 data/*.tmp.json
 data/*.backup.json
 data/output/
-reports/
+reportes/
 
 # Ignore generated normalized JSONs
 data/normalized_*.json
